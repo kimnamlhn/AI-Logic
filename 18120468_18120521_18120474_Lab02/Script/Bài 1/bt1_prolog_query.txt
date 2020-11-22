@@ -1,0 +1,40 @@
+%	1. Trong gia đình Hoàng gia Anh, ai đã ly hôn?: 
+divorced(X,Y).
+%	2. Ai là người đã kết hôn với Prince Phillip?: 
+married(X, 'Prince Phillip').
+%	3. Princess Diana có là cha/mẹ của Prince Hary hay không?: 
+parent(Princess Diana', 'Prince Harry').
+%	4. Ai là con trai của Prince William?: 
+son(X, 'Prince William').
+%	5. Chồng của Kate Middleton là cha của ai?; 
+husband(X, 'Kate Middleton'), father(X, Y).
+%	6. Prince George có phải là anh/em trai của Princess Charlotte không?: 
+brother('Prince George', 'Princess Charlotte').
+%	7. Princess Anne có là bà của Savannah Phillips không?: 
+grandmother('Princess Anne', 'Savannah Phillips').
+%	8. Savannah Phillips có phải là cháu gái của Princess Anne không?: 
+granddaughter('Savannah Phillips','Princess Anne').
+%	9. Ai là cháu trai của Prince Harry?: 
+nephew(X, 'Prince Harry').
+%	10. Prince Phillip là ông của ai?: 
+grandfather('Prince Phillip', X).
+%	11. Prince George có phải là cháu trai của Prince Charles không?: 
+grandson('Prince George', 'Prince Charles').
+%	12. Prince Harry có phải con của Captain Mark Phillips?: 
+son('Prince Harry', 'Captain Mark Phillips').
+%	13. Chú của Peter Phillips là ai?: 
+uncle(X, 'Peter Phillips').
+%	14. Princess Anne có phải là anh em ruột với Prince Charles không?: 
+sibling('Prince Charles','Princess Anne').
+%	15. Ai là cháu gái của Zara Phillips?: 
+niece(X,'Zara Phillips').
+%	16. Ai là bố của Princess Eugenie?: 
+father(X, 'Princess Eugenie').
+%	17. Ai là con của Prince Edward?: 
+child(X, 'Prince Edward').
+%	18. Princess Anne đã kết hôn với ai?: 
+married('Princess Anne', X).
+%	19. Ai là nội của Isla Phillips?: 
+grandparent(X, 'Isla Phillips').
+%	20. Ai là vợ của Prince Charles?:  
+wife(X, 'Prince Charles').
